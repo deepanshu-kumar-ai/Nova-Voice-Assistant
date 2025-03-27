@@ -44,7 +44,7 @@ def aiProcess(command):
 
     completion = client.chat.completions.create(
     model="gpt-3.5-turbo",
-    messages=[{"role": "system", "content": "You are a virtual assistant named jarvis skilled in general tasks like Alexa and Google Cloud. Give short responses please"},
+    messages=[{"role": "system", "content": "You are a virtual assistant named Nova skilled in general tasks like Alexa and Google Cloud. Give short responses please"},
               {"role": "user", "content": command}]
     )
 
